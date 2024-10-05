@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel = "stylesheet" href="style.css" />
+    <link rel = "stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+    <nav id = "dekstop-nav"> 
+        <div class = "logo"> Sawrave Ahmed </div>
+        <div>
+            <ul class = 'nav-links'>
+                <li> <a href = "#"> Home </a> </li>
+                <li> <a href = "#about"> About Me </a> </li>
+                <li> <a href = "#experience"> Experience </a> </li>
+                <li> <a href = "#projects"> Projects </a> </li>
+               <li> <a href = "#contact"> Contact </a> </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class = "logo"> Sawrave Ahmed </div>
+        <div class = "hamburger-menu">
+            <div class = "hamburger-icon" onclick = "togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                    <li> <a href = "#" onclick = "togglemenu()"> Home </a> </li>
+                    <li> <a href = "#" onclick = "togglemenu()"> Experience </a> </li>
+                    <li> <a href = "#" onclick = "togglemenu()"> Projects </a> </li>
+                    <li> <a href = "#" onclick = "togglemenu()"> Contact </a> </li>
+            </div>
+        
+
+    </nav>
+
+    <section id = "profile">
+        <div class = "profile-image">
+            <img src = "./Assets/428712848_3328073010824255_312697167217274773_n.jpg" alt = "Profile Image" height="400px" />
+        </div>
+        <div class = "section-text">
+            <p class = "section-text-p1">Hello I'm</p>
+            <h1 class = "title"> Sawrave Ahmed </h1>
+            <p class = section-text-p2> Frontend Developer </p>
+            <div class = "btn-container">
+                <div>
+                    <button class= "btn btn-color-1"> <a href = "#"> Contact Me </a></button>
+                </div>
+                <div>
+                    <button class = "btn btn-color-2"> <a href = "#"> Download CV </a></button>
+                </div>
+            </div>
+            <div id = "social-container">
+                <img src = "./Assets/facebook.png" alt = "Facebook" class ="icon"/>
+                <img src = "./Assets/github.png" alt = "github" class ="icon" />
+
+            </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+              <div class="about-details-container">
+                <div class="about-containers">
+                  <div class="details-container-1">
+                    <img
+                      src="./assets/experience.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>1+ years <br />Frontend Development</p>
+                  </div>
+                  <div class="details-container-2">
+                    <img
+                      src="./assets/mortarboard.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>
+                        Currently pursuing a Bachelor's degree in Computer Science at BRAC University
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Frontend Development</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>HTML</h3>
+                        <p>Experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>CSS</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>JavaScript</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>TypeScript</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                </div>
+                <br> <br> <br>
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Backend Development</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>PostgreSQL</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Node JS</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Express JS</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Git</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+              <div class="about-containers">
+                <div class="details-container color-container">
+                  <h2 class="experience-sub-title project-title">Project One</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://marvelous-concha-664efa.netlify.app/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <h2 class="experience-sub-title project-title">Project Two</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://chipper-pika-6e0534.netlify.app/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+             
+          </section>
+          <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+             
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:examplemail@gmail.com">sawraveahmed007@gmail.com</a></p>
+
+          </section>
+          <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p>Copyright &#169; 2024 Sawrave Ahmed. All Rights Reserved.</p>
+          </footer>
+          <script src="script.js"></script>
+        </body>
+      </html>
+
+
+    
+</body>
+</html>
+
